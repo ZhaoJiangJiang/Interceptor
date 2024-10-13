@@ -1,0 +1,8 @@
+server:
+  port:8080
+
+interceptor:
+  jwt:
+    secret-key: MY_SECRET_KEY
+    expiration-time: 720000
+    token-name: MY_TOKEN
